@@ -1,0 +1,15 @@
+[
+    {
+       "id": "col-101",
+       "name": "UOM",
+       "location": "Twincities",
+       "rating":5.0
+    },
+    
+    {
+       "id": "col-102",
+       "name": "UOW",
+       "location": "Winsconsin",
+       "rating":4.5
+    }
+]
