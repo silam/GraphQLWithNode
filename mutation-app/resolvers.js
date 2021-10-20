@@ -1,5 +1,5 @@
 
-const db = require('./db')
+const db = require('../db')
 const Query = {
    studentById:(root,args,context,info) => {
       return db.students.get(args.id);

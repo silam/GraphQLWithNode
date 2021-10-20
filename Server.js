@@ -7,11 +7,11 @@ const port = process.env.PORT || 9000;
 const app = express();
 
 const fs = require('fs')
-//const typeDefs = fs.readFileSync('./query-app/schema.graphql',{encoding:'utf-8'})
-//const resolvers = require('./query-app/resolvers')
+const typeDefs = fs.readFileSync('./query-app/schema.graphql',{encoding:'utf-8'})
+const resolvers = require('./query-app/resolvers')
 
-const typeDefs = fs.readFileSync('./mutation-app/schema.graphql',{encoding:'utf-8'})
-const resolvers = require('./mutation-app/resolvers')
+//const typeDefs = fs.readFileSync('./mutation-app/schema.graphql',{encoding:'utf-8'})
+//const resolvers = require('./mutation-app/resolvers')
 
 
 const {makeExecutableSchema} = require('graphql-tools')
